@@ -1,0 +1,32 @@
+#include <unistd.h>
+
+void	ecrit(char c)
+{
+	write(1, &c, 1);
+}
+
+
+int ft_strlen(char *str)
+{
+	int i;	
+
+	i = 0;
+	while (*str != 0)
+		i++;
+	return(i);
+}
+
+
+int main()
+{
+	int i;
+	char x;
+	
+	x = "oui"
+
+	ft_strlen(x);
+	ecrit(i + 48);
+	
+	return (0);
+}
+
